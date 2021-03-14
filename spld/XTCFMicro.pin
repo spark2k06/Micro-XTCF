@@ -1,0 +1,25 @@
+
+
+ Pin # | Name     | Pin Type
+-----------------------------
+   1   | A4       | Input
+   2   | A5       | Input
+   3   | A6       | Input
+   4   | A7       | Input
+   5   | A8       | Input
+   6   | A9       | Input
+   7   | A15      | Input
+   8   | A14      | Input
+   9   | A13      | Input
+  10   | GND      | GND
+  11   | A16      | Input
+  12   | ROMCS    | Output
+  13   | A17      | Input
+  14   | A18      | Input
+  15   | A19      | Input
+  16   | AEN      | Input
+  17   | ROMEN    | Input
+  18   | CFCS0    | Output
+  19   | CFCS1    | Output
+  20   | VCC      | VCC
+

@@ -1,0 +1,33 @@
+GAL16V8   ;  Works with GAL16V8B and ATF16V8B
+ISAOPL3   ;  Micro XTCF ISA 8 bits (Very Low Profile), Production version 1
+
+A4	A5	A6	A7	A8	A9	A15	A14	A13	GND
+A16 ROMCS A17 A18	A19 AEN	ROMEN	CFCS0	CFCS1	VCC
+
+
+/ROMCS = /ROMEN * A19 * A18 * /A17 * A16 * /A15 * /A14 */A13  
+
+/CFCS0 = /AEN * /A4 * /A5 * /A6 * /A7 * A8 * A9 
+/CFCS1 = /AEN * A4 * /A5 * /A6 * /A7 * A8 * A9
+
+
+
+DESCRIPTION
+
+ROM I/O Port
+------------
+
+/A17 * A16 * /A15 * /A14 * /A13 = D0000h [Default]
+
+IDE I/O Port
+------------
+
+/A5 * /A6 * /A7 = 300h [Default]
+A5 * /A6 * /A7 = 320h
+/A5 * A6 * /A7 = 340h
+A5 * A6 * /A7 = 360h
+/A5 * /A6 * A7 = 380h
+A5 * /A6 * A7 = 3A0h
+/A5 * A6 * A7 = 3C0h
+A5 *A6 * A7 = 3E0h
+
