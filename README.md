@@ -2,6 +2,9 @@
 
 8-bit ISA CompactFlash interface + Boot ROM (two separate functions that can be used individually).
 
+![alt text](/render/Micro-XTCF-Front.png "Micro-XTCF-Front")
+![alt text](/render/Micro-XTCF-Rear.png "Micro-XTCF-Rear")
+
 # Credit
 
 Design uses schematic from Monotech-PC, which, in turn, is based on the schematic from Sergey Kiselev:
