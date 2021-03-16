@@ -9,6 +9,7 @@
 Design uses schematic from Monotech-PC, which, in turn, is based on the schematic from Sergey Kiselev:
 
 https://github.com/monotech/monotech_xt-cf-mini
+
 http://www.malinov.com/Home/sergeys-projects/xt-cf-lite
 
 XT-IDE Universal BIOS\
