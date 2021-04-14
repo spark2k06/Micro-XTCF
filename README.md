@@ -2,7 +2,7 @@
 
 8-bit ISA CompactFlash interface + Boot ROM (two separate functions that can be used individually).
 
-![alt text](/render/Micro-XTCF.png "Micro-XTCF")
+![alt text](/render/Micro-XTCFv1_1.png "Micro-XTCF")
 
 
 # Rev 1.1
