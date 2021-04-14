@@ -4,7 +4,7 @@ EELAYER END
 $Descr User 17000 11000
 encoding utf-8
 Sheet 1 1
-Title "XT-CF-Mini"
+Title "MicroXTCF ISA 8 bits (PCXT)"
 Date "2021-03-14"
 Rev "1.1"
 Comp "Aitor Gómez García"
@@ -269,7 +269,7 @@ NoConn ~ 7050 2800
 NoConn ~ 7050 2600
 NoConn ~ 7050 2500
 $Comp
-L Micro-XTCF-rescue:R-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue R1
+L Micro-XTCF-rescue:R-xt-cf-rescue-xt-cf-mini-rescue R1
 U 1 1 5116ED7F
 P 3400 6350
 F 0 "R1" V 3480 6350 50  0000 C CNN
@@ -280,7 +280,7 @@ F 3 "" H 3400 6350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Micro-XTCF-rescue:GND-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue #PWR04
+L Micro-XTCF-rescue:GND-xt-cf-rescue-xt-cf-mini-rescue #PWR04
 U 1 1 5116ED4F
 P 3650 6350
 F 0 "#PWR04" H 3650 6350 30  0001 C CNN
@@ -293,7 +293,7 @@ $EndComp
 Text Label 2650 6350 0    60   ~ 0
 CF_DMARQ
 $Comp
-L Micro-XTCF-rescue:CONN_2-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue P2
+L Micro-XTCF-rescue:CONN_2-xt-cf-rescue-xt-cf-mini-rescue P2
 U 1 1 5116EC3C
 P 5125 8050
 F 0 "P2" V 5075 8050 40  0000 C CNN
@@ -304,7 +304,7 @@ F 3 "" H 5125 8050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Micro-XTCF-rescue:LED-Device-xt-cf-mini-rescue-Micro-XTCF-rescue D1
+L Micro-XTCF-rescue:LED-Device-xt-cf-mini-rescue D1
 U 1 1 5116EC22
 P 5125 7200
 F 0 "D1" H 5125 7300 50  0000 C CNN
@@ -398,7 +398,7 @@ D1
 Text Label 5025 2400 2    60   ~ 0
 D0
 $Comp
-L Micro-XTCF-rescue:CF_CARD-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue P1
+L Micro-XTCF-rescue:CF_CARD-xt-cf-rescue-xt-cf-mini-rescue P1
 U 1 1 5116D113
 P 3825 3800
 F 0 "P1" H 3825 3850 60  0000 C CNN
@@ -411,7 +411,7 @@ $EndComp
 Text Label 14550 8000 2    60   ~ 0
 RDY/~BUSY
 $Comp
-L Micro-XTCF-rescue:28C64-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue U1
+L Micro-XTCF-rescue:28C64-xt-cf-rescue-xt-cf-mini-rescue U1
 U 1 1 509149DC
 P 13450 7150
 F 0 "U1" H 13450 7200 60  0000 C CNN
@@ -426,7 +426,7 @@ ISA Bus
 Text Notes 9375 5775 0    120  ~ 0
 BIOS Extension ROM
 $Comp
-L Micro-XTCF-rescue:BUSPC_DEV-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue BUS1
+L Micro-XTCF-rescue:BUSPC_DEV-xt-cf-rescue-xt-cf-mini-rescue BUS1
 U 1 1 508DEF42
 P 7950 3500
 F 0 "BUS1" H 7950 3550 70  0000 C CNN
@@ -569,7 +569,7 @@ Compact Flash Interface
 Text Label 12350 7800 0    60   ~ 0
 ~ROM_CS
 $Comp
-L Micro-XTCF-rescue:GND-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue #PWR014
+L Micro-XTCF-rescue:GND-xt-cf-rescue-xt-cf-mini-rescue #PWR014
 U 1 1 4EF92A22
 P 6550 3000
 F 0 "#PWR014" H 6550 3000 30  0001 C CNN
@@ -580,7 +580,7 @@ F 3 "" H 6550 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro-XTCF-rescue:VCC-power-xt-cf-mini-rescue-Micro-XTCF-rescue #PWR015
+L Micro-XTCF-rescue:VCC-power-xt-cf-mini-rescue #PWR015
 U 1 1 4EF92995
 P 6350 4700
 F 0 "#PWR015" H 6350 4800 30  0001 C CNN
@@ -591,7 +591,7 @@ F 3 "" H 6350 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro-XTCF-rescue:GND-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue #PWR016
+L Micro-XTCF-rescue:GND-xt-cf-rescue-xt-cf-mini-rescue #PWR016
 U 1 1 4EF92983
 P 6550 5100
 F 0 "#PWR016" H 6550 5100 30  0001 C CNN
@@ -602,7 +602,7 @@ F 3 "" H 6550 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro-XTCF-rescue:GND-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue #PWR017
+L Micro-XTCF-rescue:GND-xt-cf-rescue-xt-cf-mini-rescue #PWR017
 U 1 1 4ED6C9CC
 P 6550 2100
 F 0 "#PWR017" H 6550 2100 30  0001 C CNN
@@ -613,7 +613,7 @@ F 3 "" H 6550 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro-XTCF-rescue:VCC-power-xt-cf-mini-rescue-Micro-XTCF-rescue #PWR018
+L Micro-XTCF-rescue:VCC-power-xt-cf-mini-rescue #PWR018
 U 1 1 4ED6C9CB
 P 6350 2100
 F 0 "#PWR018" H 6350 2200 30  0001 C CNN
@@ -646,7 +646,7 @@ Wire Wire Line
 Text Label 11350 6850 2    60   ~ 0
 ~ROMW
 $Comp
-L Micro-XTCF-rescue:GND-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue #PWR0101
+L Micro-XTCF-rescue:GND-xt-cf-rescue-xt-cf-mini-rescue #PWR0101
 U 1 1 602CC012
 P 7850 8325
 F 0 "#PWR0101" H 7850 8325 30  0001 C CNN
@@ -675,7 +675,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 6975 6900 6975
 $Comp
-L Micro-XTCF-rescue:GAL16V8-Logic_Programmable-xt-cf-mini-rescue-Micro-XTCF-rescue U2
+L Micro-XTCF-rescue:GAL16V8-Logic_Programmable-xt-cf-mini-rescue U2
 U 1 1 60105A41
 P 7850 7375
 F 0 "U2" H 7850 8256 50  0000 C CNN
@@ -716,7 +716,7 @@ Text Label 8800 7075 2    50   ~ 0
 Wire Wire Line
 	10275 7650 9825 7650
 $Comp
-L Micro-XTCF-rescue:GND-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue #PWR0102
+L Micro-XTCF-rescue:GND-xt-cf-rescue-xt-cf-mini-rescue #PWR0102
 U 1 1 604C522A
 P 9825 7775
 F 0 "#PWR0102" H 9825 7775 30  0001 C CNN
@@ -733,7 +733,7 @@ Text Label 8800 6875 2    50   ~ 0
 Text Label 11325 7550 2    50   ~ 0
 ~ROM_ENABLE
 $Comp
-L Micro-XTCF-rescue:VCC-power-xt-cf-mini-rescue-Micro-XTCF-rescue #PWR06
+L Micro-XTCF-rescue:VCC-power-xt-cf-mini-rescue #PWR06
 U 1 1 5116EC99
 P 5375 6350
 F 0 "#PWR06" H 5375 6450 30  0001 C CNN
@@ -744,7 +744,7 @@ F 3 "" H 5375 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro-XTCF-rescue:R-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue R2
+L Micro-XTCF-rescue:R-xt-cf-rescue-xt-cf-mini-rescue R2
 U 1 1 601B3EE1
 P 5375 6800
 F 0 "R2" V 5455 6800 50  0000 C CNN
@@ -755,7 +755,7 @@ F 3 "" H 5375 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro-XTCF-rescue:R-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue R4
+L Micro-XTCF-rescue:R-xt-cf-rescue-xt-cf-mini-rescue R4
 U 1 1 601B5048
 P 5725 6800
 F 0 "R4" V 5805 6800 50  0000 C CNN
@@ -772,7 +772,7 @@ CF_IORDY
 Wire Wire Line
 	5375 7050 5375 7200
 $Comp
-L Micro-XTCF-rescue:R-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue R3
+L Micro-XTCF-rescue:R-xt-cf-rescue-xt-cf-mini-rescue R3
 U 1 1 601FD3C9
 P 5550 6800
 F 0 "R3" V 5630 6800 50  0000 C CNN
@@ -795,7 +795,7 @@ Wire Wire Line
 	5550 6550 5725 6550
 Connection ~ 5550 6550
 $Comp
-L Micro-XTCF-rescue:SW_SPDT-Switch-xt-cf-mini-rescue-Micro-XTCF-rescue SW2
+L Micro-XTCF-rescue:SW_SPDT-Switch-xt-cf-mini-rescue SW2
 U 1 1 600F80A0
 P 10525 6750
 F 0 "SW2" H 10000 6675 50  0000 C CNN
@@ -806,7 +806,7 @@ F 3 "~" H 10525 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro-XTCF-rescue:SW_SPDT-Switch-xt-cf-mini-rescue-Micro-XTCF-rescue SW1
+L Micro-XTCF-rescue:SW_SPDT-Switch-xt-cf-mini-rescue SW1
 U 1 1 600F94E8
 P 10475 7650
 F 0 "SW1" H 10325 7725 50  0000 C CNN
@@ -821,112 +821,112 @@ Wire Wire Line
 NoConn ~ 10725 6650
 NoConn ~ 10675 7750
 $Comp
-L Micro-XTCF-rescue:C-Device-xt-cf-mini-rescue-Micro-XTCF-rescue C1
+L Micro-XTCF-rescue:C-Device-xt-cf-mini-rescue C1
 U 1 1 60107B88
-P 10150 4800
-F 0 "C1" H 10200 4900 50  0000 L CNN
-F 1 "0.1uF" H 10200 4700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 10188 4650 50  0001 C CNN
-F 3 "~" H 10150 4800 50  0001 C CNN
-	1    10150 4800
+P 11050 4700
+F 0 "C1" H 11100 4800 50  0000 L CNN
+F 1 "0.1uF" H 11100 4600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 11088 4550 50  0001 C CNN
+F 3 "~" H 11050 4700 50  0001 C CNN
+	1    11050 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro-XTCF-rescue:C-Device-xt-cf-mini-rescue-Micro-XTCF-rescue C2
+L Micro-XTCF-rescue:C-Device-xt-cf-mini-rescue C2
 U 1 1 6010860E
-P 10525 4800
-F 0 "C2" H 10575 4900 50  0000 L CNN
-F 1 "0.1uF" H 10575 4700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 10563 4650 50  0001 C CNN
-F 3 "~" H 10525 4800 50  0001 C CNN
-	1    10525 4800
+P 11425 4700
+F 0 "C2" H 11475 4800 50  0000 L CNN
+F 1 "0.1uF" H 11475 4600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 11463 4550 50  0001 C CNN
+F 3 "~" H 11425 4700 50  0001 C CNN
+	1    11425 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro-XTCF-rescue:C-Device-xt-cf-mini-rescue-Micro-XTCF-rescue C3
+L Micro-XTCF-rescue:C-Device-xt-cf-mini-rescue C3
 U 1 1 60108E99
-P 10900 4800
-F 0 "C3" H 10950 4900 50  0000 L CNN
-F 1 "0.1uF" H 10950 4700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 10938 4650 50  0001 C CNN
-F 3 "~" H 10900 4800 50  0001 C CNN
-	1    10900 4800
+P 11800 4700
+F 0 "C3" H 11850 4800 50  0000 L CNN
+F 1 "0.1uF" H 11850 4600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 11838 4550 50  0001 C CNN
+F 3 "~" H 11800 4700 50  0001 C CNN
+	1    11800 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro-XTCF-rescue:CP-Device-xt-cf-mini-rescue-Micro-XTCF-rescue C4
+L Micro-XTCF-rescue:CP-Device-xt-cf-mini-rescue C4
 U 1 1 60109E03
-P 11300 4800
-F 0 "C4" H 11350 4900 50  0000 L CNN
-F 1 "10uF" H 11350 4700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 11338 4650 50  0001 C CNN
-F 3 "~" H 11300 4800 50  0001 C CNN
-	1    11300 4800
+P 12200 4700
+F 0 "C4" H 12250 4800 50  0000 L CNN
+F 1 "10uF" H 12250 4600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 12238 4550 50  0001 C CNN
+F 3 "~" H 12200 4700 50  0001 C CNN
+	1    12200 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro-XTCF-rescue:CP-Device-xt-cf-mini-rescue-Micro-XTCF-rescue C5
+L Micro-XTCF-rescue:CP-Device-xt-cf-mini-rescue C5
 U 1 1 6010AA43
-P 11725 4800
-F 0 "C5" H 11775 4900 50  0000 L CNN
-F 1 "10uF" H 11775 4700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 11763 4650 50  0001 C CNN
-F 3 "~" H 11725 4800 50  0001 C CNN
-	1    11725 4800
+P 12625 4700
+F 0 "C5" H 12675 4800 50  0000 L CNN
+F 1 "10uF" H 12675 4600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 12663 4550 50  0001 C CNN
+F 3 "~" H 12625 4700 50  0001 C CNN
+	1    12625 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10150 4950 10525 4950
+	11050 4850 11425 4850
 Wire Wire Line
-	10525 4950 10900 4950
-Connection ~ 10525 4950
+	11425 4850 11800 4850
+Connection ~ 11425 4850
 Wire Wire Line
-	10900 4950 11300 4950
-Connection ~ 10900 4950
+	11800 4850 12200 4850
+Connection ~ 11800 4850
 Wire Wire Line
-	11300 4950 11725 4950
-Connection ~ 11300 4950
+	12200 4850 12625 4850
+Connection ~ 12200 4850
 Wire Wire Line
-	10150 4650 10525 4650
+	11050 4550 11425 4550
 Wire Wire Line
-	10525 4650 10900 4650
-Connection ~ 10525 4650
+	11425 4550 11800 4550
+Connection ~ 11425 4550
 Wire Wire Line
-	10900 4650 11300 4650
-Connection ~ 10900 4650
+	11800 4550 12200 4550
+Connection ~ 11800 4550
 Wire Wire Line
-	11300 4650 11725 4650
-Connection ~ 11300 4650
-Connection ~ 11725 4650
-Connection ~ 11725 4950
+	12200 4550 12625 4550
+Connection ~ 12200 4550
+Connection ~ 12625 4550
+Connection ~ 12625 4850
 Wire Wire Line
-	11725 4950 12075 4950
+	12625 4850 12975 4850
 Wire Wire Line
-	12075 4950 12075 5075
+	12975 4850 12975 4975
 Wire Wire Line
-	12075 4650 12075 4500
+	12975 4550 12975 4400
 Wire Wire Line
-	11725 4650 12075 4650
+	12625 4550 12975 4550
 $Comp
-L Micro-XTCF-rescue:VCC-power-xt-cf-mini-rescue-Micro-XTCF-rescue #PWR0104
+L Micro-XTCF-rescue:VCC-power-xt-cf-mini-rescue #PWR0104
 U 1 1 601846FB
-P 12075 4500
-F 0 "#PWR0104" H 12075 4600 30  0001 C CNN
-F 1 "VCC" H 12075 4600 30  0000 C CNN
-F 2 "" H 12075 4500 50  0001 C CNN
-F 3 "" H 12075 4500 50  0001 C CNN
-	1    12075 4500
+P 12975 4400
+F 0 "#PWR0104" H 12975 4500 30  0001 C CNN
+F 1 "VCC" H 12975 4500 30  0000 C CNN
+F 2 "" H 12975 4400 50  0001 C CNN
+F 3 "" H 12975 4400 50  0001 C CNN
+	1    12975 4400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro-XTCF-rescue:GND-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue #PWR0105
+L Micro-XTCF-rescue:GND-xt-cf-rescue-xt-cf-mini-rescue #PWR0105
 U 1 1 6018538E
-P 12075 5075
-F 0 "#PWR0105" H 12075 5075 30  0001 C CNN
-F 1 "GND" H 12075 5005 30  0001 C CNN
-F 2 "" H 12075 5075 50  0001 C CNN
-F 3 "" H 12075 5075 50  0001 C CNN
-	1    12075 5075
+P 12975 4975
+F 0 "#PWR0105" H 12975 4975 30  0001 C CNN
+F 1 "GND" H 12975 4905 30  0001 C CNN
+F 2 "" H 12975 4975 50  0001 C CNN
+F 3 "" H 12975 4975 50  0001 C CNN
+	1    12975 4975
 	1    0    0    -1  
 $EndComp
 Text Label 8800 7475 2    60   ~ 0
@@ -934,7 +934,7 @@ A17
 Text Label 8800 7575 2    50   ~ 0
 ~ROM_CS
 $Comp
-L Micro-XTCF-rescue:VCC-power-xt-cf-mini-rescue-Micro-XTCF-rescue #PWR0103
+L Micro-XTCF-rescue:VCC-power-xt-cf-mini-rescue #PWR0103
 U 1 1 6016D008
 P 9400 6875
 F 0 "#PWR0103" H 9400 6975 30  0001 C CNN
@@ -945,7 +945,7 @@ F 3 "" H 9400 6875 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Micro-XTCF-rescue:R-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue R5
+L Micro-XTCF-rescue:R-xt-cf-rescue-xt-cf-mini-rescue R5
 U 1 1 6016BFA1
 P 9150 6875
 F 0 "R5" V 9230 6875 50  0000 C CNN
@@ -960,7 +960,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 6875 8900 6875
 $Comp
-L Micro-XTCF-rescue:VCC-power-xt-cf-mini-rescue-Micro-XTCF-rescue #PWR0106
+L Micro-XTCF-rescue:VCC-power-xt-cf-mini-rescue #PWR0106
 U 1 1 6010FDAA
 P 7850 6400
 F 0 "#PWR0106" H 7850 6500 30  0001 C CNN
@@ -973,7 +973,7 @@ $EndComp
 Wire Wire Line
 	7850 6675 7850 6400
 $Comp
-L Micro-XTCF-rescue:R-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue R6
+L Micro-XTCF-rescue:R-xt-cf-rescue-xt-cf-mini-rescue R6
 U 1 1 601126F6
 P 14800 8000
 F 0 "R6" V 14880 8000 50  0000 C CNN
@@ -986,7 +986,7 @@ $EndComp
 Wire Wire Line
 	15050 8000 15050 7800
 $Comp
-L Micro-XTCF-rescue:VCC-power-xt-cf-mini-rescue-Micro-XTCF-rescue #PWR0107
+L Micro-XTCF-rescue:VCC-power-xt-cf-mini-rescue #PWR0107
 U 1 1 6011E79E
 P 15050 7800
 F 0 "#PWR0107" H 15050 7900 30  0001 C CNN
@@ -997,7 +997,7 @@ F 3 "" H 15050 7800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro-XTCF-rescue:74LS04-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue U5
+L Micro-XTCF-rescue:74LS04-xt-cf-rescue-xt-cf-mini-rescue U5
 U 4 1 5116DA62
 P 3425 7200
 F 0 "U5" H 3375 7050 60  0000 C CNN
@@ -1008,7 +1008,7 @@ F 3 "" H 3425 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro-XTCF-rescue:74LS04-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue U5
+L Micro-XTCF-rescue:74LS04-xt-cf-rescue-xt-cf-mini-rescue U5
 U 5 1 5116DA67
 P 4425 7200
 F 0 "U5" H 4375 7050 60  0000 C CNN
@@ -1019,7 +1019,7 @@ F 3 "" H 4425 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro-XTCF-rescue:74LS04-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue U5
+L Micro-XTCF-rescue:74LS04-xt-cf-rescue-xt-cf-mini-rescue U5
 U 6 1 5116DA69
 P 4425 7600
 F 0 "U5" H 4375 7450 60  0000 C CNN
@@ -1030,7 +1030,7 @@ F 3 "" H 4425 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Micro-XTCF-rescue:74LS04-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue U5
+L Micro-XTCF-rescue:74LS04-xt-cf-rescue-xt-cf-mini-rescue U5
 U 3 1 5116DA77
 P 3425 6800
 F 0 "U5" H 3375 6650 60  0000 C CNN
@@ -1047,7 +1047,7 @@ A19
 Text Label 8800 7175 2    60   ~ 0
 AEN
 $Comp
-L Micro-XTCF-rescue:R-xt-cf-rescue-xt-cf-mini-rescue-Micro-XTCF-rescue R7
+L Micro-XTCF-rescue:R-xt-cf-rescue-xt-cf-mini-rescue R7
 U 1 1 602CAB86
 P 11500 6600
 F 0 "R7" V 11580 6600 50  0000 C CNN
@@ -1060,7 +1060,7 @@ $EndComp
 Wire Wire Line
 	10725 6850 11500 6850
 $Comp
-L Micro-XTCF-rescue:VCC-power-xt-cf-mini-rescue-Micro-XTCF-rescue #PWR0108
+L Micro-XTCF-rescue:VCC-power-xt-cf-mini-rescue #PWR0108
 U 1 1 602D6578
 P 11500 6350
 F 0 "#PWR0108" H 11500 6450 30  0001 C CNN
@@ -1070,4 +1070,38 @@ F 3 "" H 11500 6350 50  0001 C CNN
 	1    11500 6350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Micro-XTCF-rescue:C-Device-xt-cf-mini-rescue C7
+U 1 1 60576060
+P 10700 4700
+F 0 "C7" H 10750 4800 50  0000 L CNN
+F 1 "0.1uF" H 10750 4600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 10738 4550 50  0001 C CNN
+F 3 "~" H 10700 4700 50  0001 C CNN
+	1    10700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Micro-XTCF-rescue:C-Device-xt-cf-mini-rescue C6
+U 1 1 605763F4
+P 10350 4700
+F 0 "C6" H 10400 4800 50  0000 L CNN
+F 1 "22uF" H 10400 4600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 10388 4550 50  0001 C CNN
+F 3 "~" H 10350 4700 50  0001 C CNN
+	1    10350 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 4550 10700 4550
+Wire Wire Line
+	10700 4550 11050 4550
+Connection ~ 10700 4550
+Connection ~ 11050 4550
+Wire Wire Line
+	10350 4850 10700 4850
+Wire Wire Line
+	10700 4850 11050 4850
+Connection ~ 10700 4850
+Connection ~ 11050 4850
 $EndSCHEMATC
