@@ -14,8 +14,8 @@ A16 ROMCS A17 A18	A19 AEN	ROMEN	CFCS0	CFCS1	VCC
 
 DESCRIPTION
 
-ROM I/O Port
-------------
+ROM Address
+-----------
 
 /A17 * A16 * /A15 * /A14 * /A13 = D0000h [Default]
 
