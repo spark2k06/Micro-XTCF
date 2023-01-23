@@ -1,17 +1,11 @@
-# Micro XTCF (Very Low Profile) Rev1.1 ReadMe
+Micro XTCF (Very Low Profile) Rev1.0 ReadMe
+----------------------------
 
 8-bit ISA CompactFlash interface + Boot ROM (two separate functions that can be used individually).
 
-![alt text](/render/Micro-XTCFv1_1.png "Micro-XTCF")
 
-
-# Rev 1.1
-
-Added two decouple capacitors (100nF and 22uF) on the vcc line of the cf, some cf's requires a pump when they start, thanks @arananet for the suggestion.
-
-Added gerbers to the github project.
-
-# Credit
+Credit:
+-------
 
 Design uses schematic from Monotech-PC, which, in turn, is based on the schematic from Sergey Kiselev:
 
